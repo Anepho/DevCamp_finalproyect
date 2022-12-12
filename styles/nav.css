@@ -1,0 +1,41 @@
+/* Barra de navegacion Syle*/
+
+.navbar {
+	background-color: black;
+	color: white;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
+}
+
+.navbar > .nav-wrapper{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	padding: 20px 30px;
+	width: 1000px;
+}
+
+.navbar > .nav-wrapper > .logo img {
+	width: 175px;
+	height: auto;
+}
+
+.logo {
+	display: flex;
+	align-items: center;
+
+}
+.nav-wrapper > .explore-wrapper> .link-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.action-buttons-wrapper {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+
+
