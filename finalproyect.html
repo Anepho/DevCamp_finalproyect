@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<title>final project</title>
 
 	<link rel="stylesheet" href="styles/nav.css">
 	<link rel="stylesheet" href="styles/common.css">
+	<link rel="stylesheet" href="styles/buttons.css">
+	<link rel="stylesheet" href="styles/content.css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&family=Roboto+Slab&display=swap" rel="stylesheet">
 
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@900&family=Roboto+Slab&display=swap"rel="stylesheet">
 	<script src="https://kit.fontawesome.com/8219831cfa.js" crossorigin="anonymous"></script>
 
 </head>
 
 <body>
-
 	<div class="navbar">
 		<div class="nav-wrapper">
 			<div class="logo">
 				<img src="images/logo/codepenlogowhite.png" alt="logo">
 			</div>
-
 			<div class="explore-wrapper">
 				<div class="explore-banner">EXPLORE</div>
-
 				<div class="link-wrapper">
 					<div class="nav-link">
 						<a href="#">Pens</a>
@@ -44,17 +43,36 @@
 		</div>
 		<div class="action-buttons-wrapper">
 			<button type="submit" class="btn">Create
-				<i class="fa-solid fa-chevron-down"></i>
+				<i class="fa-solid fa-chevron-down" id="flecha"></i>
 			</button>
-
 			<div class="lupa">
 				<i class="fa-solid fa-magnifying-glass"></i>
 			</div>
-
 			<button type="submit" class="btn">Log in</button>
-
-			<button type="submit" class="btn">Sign in</button>
-
+			<button type="submit" class="btn">Sign up</button>
 		</div>
+	</div>
+
+	<div class="content">
+		<div class="text-wrapper">
+			<p class="text-primary">CodePen is a <span class="text-bold">social development enviroment</span> for front-end designers and developers. &#128406;</p>
+			<p class="text-secondary">It's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
+			<div class="buttons">
+				<button type="submit" class="btn-sign-up-for-free">Sign Up for Free</button>
+				<button type="submit" class="btn-learn-more">Learn more</button>
+			</div>
+		</div>
+		<div class="img-wrapper">
+			<p class="small-text">This is <span class="text-blue">CodePen projects</span>!</p>
+			<img src="images/Captura.png" alt="codepen web example image">
+		</div>
+	</div>
+	<div class="call-to-action_container">
+		<div class="cta">CodePen for <span class="uppercase-bold">team</span></div>
+		<div class="cta">CodePen for <span class="uppercase-bold">education</span></div>
+		<div class="cta">CodePen for <span class="uppercase-bold">privacy</span></div>
+		<div class="cta">CodePen for <span class="uppercase-bold">writing</span></div>
+	</div>
+	<div class="footer">
 	</div>
 </body>
